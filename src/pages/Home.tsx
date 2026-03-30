@@ -2,6 +2,8 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { produtos } from "../data/products";
 import { useModal } from "../contexts/ModalContext";
+import homeBackground from "../assets/home.png";
+import footerBackground from "../assets/footer.png";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -15,7 +17,7 @@ const Home = () => {
       {/* HERO */}
       <section
         className="min-h-[300px] sm:min-h-[400px] md:h-[500px] bg-cover bg-center flex items-center justify-center text-center"
-        style={{ backgroundImage: "url('src/assets/home.png')" }}
+        style={{ backgroundImage: `url(${homeBackground})` }}
       >
         <div className="bg-black/30 p-4 sm:p-6 md:p-10 rounded-lg flex flex-col items-center justify-center max-w-full mx-4">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-serif italic font-light tracking-[0.1em] leading-tight mb-3 sm:mb-4">
@@ -106,7 +108,7 @@ const Home = () => {
       {/* FINAL */}
       <section
         className="min-h-[300px] sm:min-h-[350px] md:h-[400px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('src/assets/footer.png')" }}
+        style={{ backgroundImage: `url(${footerBackground})` }}
       >
         <div className="bg-black/40 p-10 rounded flex flex-col items-center justify-center text-center">
           <h2 className="text-5xl text-white font-serif italic font-light tracking-[0.1em] leading-tight mb-4">
