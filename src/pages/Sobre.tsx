@@ -1,4 +1,6 @@
 import sobreImg from "../assets/sobre.jpg"; // troca pelo nome da sua imagem
+import instaIcon from "../assets/insta.svg";
+import wppIcon from "../assets/wpp.svg";
 
 const Sobre = () => {
   return (
@@ -48,7 +50,7 @@ const Sobre = () => {
               target="_blank"
               className="flex items-center gap-3 text-primary hover:text-accent transition text-lg"
             >
-              <img src="/src/assets/insta.svg" alt="Instagram" className="w-7 h-7" />
+              <img src={instaIcon} alt="Instagram" className="w-7 h-7" />
               <span>@ateliepausa</span>
             </a>
 
@@ -58,7 +60,7 @@ const Sobre = () => {
               target="_blank"
               className="flex items-center gap-3 text-primary hover:text-accent transition text-lg"
             >
-              <img src="/src/assets/wpp.svg" alt="WhatsApp" className="w-7 h-7" />
+              <img src={wppIcon} alt="WhatsApp" className="w-7 h-7" />
               <span>(11) 97275-3087</span>
             </a>
 

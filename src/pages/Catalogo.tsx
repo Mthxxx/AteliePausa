@@ -1,5 +1,7 @@
 import { produtos } from "../data/products";
 import { useModal } from "../contexts/ModalContext";
+import wppIcon from "../assets/wpp.svg";
+import catalogoImg from "../assets/catalogo.jpg";
 
 const Catalogo = () => {
   const { abrirModal } = useModal();
@@ -9,7 +11,7 @@ const Catalogo = () => {
       {/* HERO */}
       <section
         className="h-[250px] sm:h-[300px] md:h-[400px] bg-cover bg-center flex items-center justify-center text-center px-4"
-        style={{ backgroundImage: "url('/src/assets/catalogo.jpg')" }}
+        style={{ backgroundImage: `url(${catalogoImg})` }}
       >
         <div className="bg-black/30 px-6 py-6 md:px-10 md:py-8 rounded">
           <h1 className="text-2xl sm:text-3xl md:text-5xl text-white font-serif italic font-light tracking-wide mb-2">
@@ -62,7 +64,7 @@ const Catalogo = () => {
             rel="noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-green-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-green-700 transition"
           >
-            <img src="/src/assets/wpp.svg" alt="WhatsApp" className="w-6 h-6" />
+            <img src={wppIcon} alt="WhatsApp" className="w-6 h-6" />
             Comprar pelo WhatsApp
           </a>
         </div>
