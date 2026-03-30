@@ -56,12 +56,12 @@ const Sobre = () => {
 
             {/* WHATSAPP */}
             <a
-              href="https://wa.me/5511972753087?text=Olá,%20gostaria%20de%20comprar%20um%20produto%20do%20ateliê"
+              href="https://wa.me/55119999999?text=Olá,%20gostaria%20de%20comprar%20um%20produto%20do%20ateliê"
               target="_blank"
               className="flex items-center gap-3 text-primary hover:text-accent transition text-lg"
             >
               <img src={wppIcon} alt="WhatsApp" className="w-7 h-7" />
-              <span>(11) 97275-3087</span>
+              <span> Nosso WhatsApp</span>
             </a>
 
           </div>

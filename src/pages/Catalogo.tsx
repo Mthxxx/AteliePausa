@@ -59,7 +59,7 @@ const Catalogo = () => {
 
         <div className="mt-24 mb-0 text-center">
           <a
-            href="https://wa.me/5511972753087?text=Olá,%20gostaria%20de%20comprar%20um%20produto%20do%20ateliê"
+            href="https://wa.me/55119999999?text=Olá,%20gostaria%20de%20comprar%20um%20produto%20do%20ateliê"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-green-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-green-700 transition"

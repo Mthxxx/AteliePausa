@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="flex flex-col gap-2 text-sm">
             
             <a
-              href="https://wa.me/5511972753087?"
+              href="https://wa.me/55119999999?"
               target="_blank"
               className="hover:text-green-400"
             >
